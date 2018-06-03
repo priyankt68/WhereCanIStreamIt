@@ -91,3 +91,5 @@ streamvenv/
 # Rope project settings
 .ropeproject
 
+# sqlite sb
+src/db.sqlite3
