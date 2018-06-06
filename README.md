@@ -1,5 +1,5 @@
-WhereCanIStreamIt :thinking
------------------
+WhereCanIStreamIt :thinking:
+----------------------------
 
 WhereCanIStreamIt is a streaming search engine.
 
@@ -21,4 +21,3 @@ cd src
 pip install -r requirements.txt
 python manage.py runserver
 ```
-
