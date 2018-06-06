@@ -1,0 +1,80 @@
+[
+  {
+    "model": "catalogue.platform",
+    "pk": 1,
+    "fields": {
+      "name": "Netflix",
+      "url": "https://netflix.com"
+    }
+  },
+  {
+    "model": "catalogue.platform",
+    "pk": 2,
+    "fields": {
+      "name": "Hotstar",
+      "url": "https://hotstar.com"
+    }
+  },
+  {
+    "model": "catalogue.genre",
+    "pk": 1,
+    "fields": {
+      "genre": "Action"
+    }
+  },
+  {
+    "model": "catalogue.genre",
+    "pk": 2,
+    "fields": {
+      "genre": "Animation"
+    }
+  },
+  {
+    "model": "catalogue.genre",
+    "pk": 3,
+    "fields": {
+      "genre": "Anime"
+    }
+  },
+  {
+    "model": "catalogue.genre",
+    "pk": 4,
+    "fields": {
+      "genre": "Comedy"
+    }
+  },
+  {
+    "model": "catalogue.genre",
+    "pk": 5,
+    "fields": {
+      "genre": "Documentary"
+    }
+  },
+  {
+    "model": "catalogue.category",
+    "pk": 1,
+    "fields": {
+      "category": "TV Show"
+    }
+  },
+  {
+    "model": "catalogue.category",
+    "pk": 2,
+    "fields": {
+      "category": "Movie"
+    }
+  },
+  {
+    "model": "catalogue.catalogue",
+    "pk": 1,
+    "fields": {
+      "title": "TRON: Legacy",
+      "slug": "1660000053",
+      "url": "http://www.hotstar.com/movies/tron-legacy/1660000053",
+      "platform": 2,
+      "description": "Tron: Legacy is an English action movie starring Olivia Wilde, Jeff Bridges, Garrett Hedlund, directed by Joseph Kosinski. Sam (Hedlund) misses his father, a virtual world designer, and enters a virtual space that has become much more dangerous than his father intended. Now, both father and son embark upon a life-and-death journey.",
+      "category": 2,
+      "genre": 1
+    }
+  }
+]
